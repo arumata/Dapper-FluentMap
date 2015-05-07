@@ -13,7 +13,7 @@ namespace Dapper.FluentMap.Dommel.Resolvers
     {
         public string ResolveColumnName(PropertyInfo propertyInfo)
         {
-            var entityMap = FluentMapper.EntityMaps[propertyInfo.DeclaringType] as IDommelEntityMap;
+            var entityMap = FluentMapper.EntityMaps[propertyInfo.ReflectedType] as IDommelEntityMap;
 
             if (entityMap == null)
             {
