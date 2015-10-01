@@ -24,7 +24,7 @@ namespace Dapper.FluentMap.Dommel.Resolvers
                 foreach (var property in FilterComplexTypes(type.GetProperties()))
                 {
                     var propertyMap = entityMap.PropertyMaps.FirstOrDefault(p => p.PropertyInfo.Name == property.Name);
-                    if (propertyMap == null || !propertyMap.Ignored)
+                    if (propertyMap != null && !propertyMap.Ignored)
                     {
                         yield return property;
                     }
