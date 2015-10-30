@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Dapper.FluentMap.A</id>
+    <version>1.4.0.1</version>
+    <projectUrl>https://github.com/arumata/Dapper-FluentMap.git</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <authors>Henk Mollema,Arumata</authors>
+    <description>Dapper.FluentMap</description>
+  </metadata>
+  <files>
+    <file src="bin\Release\Dapper.FluentMap.dll" target="lib\net40" />
+    <file src="bin\Release\Dapper.FluentMap.pdb" target="lib\net40" />
+    <file src="bin\Release\Dapper.FluentMap.XML" target="lib\net40" />
+  </files>
+</package>
